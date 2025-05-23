@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     "Responsive Web Development",
   ],
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/deepak-singh.jpg",
+        url: "https://www.webdeveloperdeepak.com",
         width: 1200,
         height: 630,
         alt: "Deepak Singh | Web Developer & Designer",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     description: "Web Development & Designing Services in Greater Noida, India",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/deepak-singh.jpg",
+        url: "https://www.webdeveloperdeepak.com",
         alt: "Deepak Singh | Web Developer & Designer",
       },
     ],
