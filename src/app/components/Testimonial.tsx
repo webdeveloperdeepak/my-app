@@ -1,0 +1,82 @@
+"use client";
+import React from "react";
+import Container from "./Container";
+
+const testimonials = [
+  {
+    name: "Anjali Mehra",
+    role: "Startup Founder",
+    message:
+      "Deepak transformed our website into a modern, responsive platform. His attention to detail and creative vision are unmatched.",
+    image: "/avatars/anjali.jpg", // Add your local or remote image paths
+  },
+  {
+    name: "Rohit Kumar",
+    role: "Marketing Head",
+    message:
+      "We saw a 40% increase in engagement after Deepak redesigned our website. He's a true professional with great communication.",
+    image: "/avatars/rohit.jpg",
+  },
+  {
+    name: "Neha Sharma",
+    role: "Freelance Writer",
+    message:
+      "I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
+    image: "/avatars/neha.jpg",
+  },
+  {
+    name: "Vikram Joshi",
+    role: "E-commerce Owner",
+    message:
+      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+    image: "/avatars/vikram.jpg",
+  },
+  {
+    name: "Vikram Joshi",
+    role: "E-commerce Owner",
+    message:
+      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+    image: "/avatars/vikram.jpg",
+  },
+  {
+    name: "Vikram Joshi",
+    role: "E-commerce Owner",
+    message:
+      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+    image: "/avatars/vikram.jpg",
+  },
+];
+
+const Testimonial : React.FC = () => {
+  return (
+    <div>
+      <Container>
+        <div className="max-w-8xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className="bg-white p-6 rounded-2xl hover:shadow-lg transition"
+            >
+              <div className="flex items-center mb-4">
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                  className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-black"
+                />
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900">{testimonial.name}</h3>
+                  <p className="text-sm text-gray-500">{testimonial.role}</p>
+                </div>
+              </div>
+              <p className="text-sm text-gray-700">“{testimonial.message}”</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      </Container>
+    </div>
+  );
+};
+
+export default Testimonial;
