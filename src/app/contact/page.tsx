@@ -1,8 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
+import React from 'react'
+import Image from 'next/image'
+import Contact from '../components/Contact';
 import NavBar from '../components/NavBar';
+import Container from '../components/Container';
+import Footer from '../components/Footer';
 
-const Contact : React.FC = () => {
+const ContactUs : React.FC = () => {
   return (
     <div>
       <NavBar />
@@ -11,9 +14,13 @@ const Contact : React.FC = () => {
         src="/images/inrBnr.png"
         width={1520}
         height={350}
-       />
+      />
+      <Container>
+        <Contact />
+      </Container>
+      <Footer/> 
     </div>
   )
 }
 
-export default Contact;
+export default ContactUs;
