@@ -47,7 +47,9 @@ const Contact: React.FC = () => {
     } else {
       setStatus("Failed to send message.");
       setIsSuccess(false);
+      setFormData({ name: "", email: "", phone: "", sub: "", message: "" });
     }
+
     setTimeout(() => {
       setStatus("");
       setIsSuccess(null);
@@ -107,9 +109,9 @@ const Contact: React.FC = () => {
             <p
               className={`text-sm mt-2 ${
                 isSuccess === true
-                  ? "text-green-600"
+                  ? "text-green-600 italic"
                   : isSuccess === false
-                  ? "text-red-600"
+                  ? "text-red-600 italic"
                   : ""
               }`}
             >

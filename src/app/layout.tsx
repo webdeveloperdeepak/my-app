@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com",
+        url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
         width: 1200,
         height: 630,
         alt: "Deepak Singh | Web Developer & Designer",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     description: "Web Development & Designing Services in Greater Noida, India",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com",
+        url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
         alt: "Deepak Singh | Web Developer & Designer",
       },
     ],
