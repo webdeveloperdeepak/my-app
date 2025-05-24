@@ -12,14 +12,14 @@ const reasons = [
   "Proven track record with happy clients",
   "Mobile-optimized layouts for every screen",
   "Affordable pricing without compromising quality",
-  "Scalable solutions to grow with your business",
 ];
 
 const WhyChooseMe : React.FC = () => {
   return (
     <div>
       <Container>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <h1 className="h1-heading">Why Choose Me</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-9 w-full">
             {reasons.map((reason, index) => (
               <div key={index} className="flex bg-white rounded-lg cursor-pointer  hover:shadow-lg p-4 space-x-2">
                 <ChevronRight className="text-black w-5 h-5 mt-1" />

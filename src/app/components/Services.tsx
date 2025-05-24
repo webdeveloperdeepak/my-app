@@ -1,68 +1,97 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
-import Container from './Container';
+import React from "react";
+import Image from "next/image";
+import Container from "./Container";
+import { FileCog, FileJson, FileSearch2, GlobeLock, Palette, TabletSmartphone } from "lucide-react";
 
-const Services : React.FC = () => {
+const Services: React.FC = () => {
   return (
     <div>
       <Container>
-          <div className='flex flex-col items-center justify-center gap-4'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-4'>
-              <div className='card'>
-                <Image  alt="custome web development services" src="/images/cw_dev.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Custom Website Development</h2>
-                <p className='text-justify'>Unlock your business potential with our custom web development services—tailored solutions that drive growth, performance, and user engagement.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/cw_design.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Custom Website Designing</h2>
-                <p className='text-justify'>Elevate your brand with our custom web design services—unique, responsive, and user-focused designs that captivate and convert your audience.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/SEO_services.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>SEO & Speed Optimization</h2>
-                <p className='text-justify'>Boost your online visibility with our SEO optimization services—drive traffic, rank higher on search engines, and grow your digital presence effectively.</p>
-              </div>
+        <h1 className="h1-heading">Services</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-9 w-full">
+          <div className="service-card">
+            <div className="circle-style">
+              <FileJson size={34} className="text-amber-700" />
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/wm_services.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Website Maintenance Services</h2>
-                <p className='text-justify'>Keep your website secure, fast, and up-to-date with our reliable web maintenance services—so you can focus on growing your business.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/ws_services.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Web Security & Performance</h2>
-                <p className='text-justify'>Protect your site and boost speed with our web security and performance services—ensuring safety, reliability, and a seamless user experience.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/mob_app.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Mobile App Development</h2>
-                <p className='text-justify'>Build powerful, user-friendly mobile apps with our expert development services—designed to bring your ideas to life on iOS and Android.</p>
-              </div>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/gd_services.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>Logo, Card & Pamplet Design</h2>
-                <p className='text-justify'>Expertly crafted logos, visiting cards, pamphlets & brochures that elevate your brand and leave a lasting impression.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/e_com.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>E-Commerce Web Solutions</h2>
-                <p className='text-justify'>Launch, manage, and grow your online store with our end-to-end e-commerce solutions—designed for seamless shopping and maximum conversions.</p>
-              </div>
-              <div className='card'>
-                <Image alt="custome web development services" src="/images/el_services.jpg" width={400} height={350}/>
-                <h2 className='text-lg text-center bg-white uppercase font-semibold p-3'>E-Learning Web Solutions</h2>
-                <p className='text-justify'>All-in-one eLearning LMS: Manage courses, track progress, and boost engagement with powerful, user-friendly online learning solutions.</p>
-              </div>
-            </div>
+            <p className="text-center">
+              Unlock your business potential with our custom web development
+              services—tailored solutions that drive growth, performance, and
+              user engagement.
+            </p>
+            <h2 className="text-lg uppercase font-semibold rounded-md">
+              Custom Web Development
+            </h2>
           </div>
+          <div className="service-card">
+            <div className="circle-style">
+              <Palette size={34} className="text-amber-700" />
+            </div>
+            <p className="text-center">
+              Elevate your brand with our custom web design services,
+              responsive, and user-focused designs that captivate and convert
+              your audience.
+            </p>
+            <h2 className="text-lg uppercase font-semibold">
+              Custom Website Designing
+            </h2>
+          </div>
+          <div className="service-card">
+            <div className="circle-style">
+              <FileSearch2 size={34} className="text-amber-700" />
+            </div>
+            <p className="text-center">
+              Boost your online visibility with our SEO optimization
+              services—drive traffic, rank higher on search engines, and grow
+              your digital presence effectively.
+            </p>
+            <h2 className="text-lg uppercase font-semibold">
+              SEO & Speed Optimization
+            </h2>
+          </div>
+          <div className="service-card">
+            <div className="circle-style">
+              <FileCog  size={34} className="text-amber-700"/>
+            </div>
+            <p className="text-center">
+              Keep your website secure, fast, and up-to-date with our reliable
+              web maintenance services—so you can focus on growing your
+              business.
+            </p>
+            <h2 className="text-lg uppercase font-semibold">
+              Web Maintenance & Support
+            </h2>
+          </div>
+          <div className="service-card">
+            <div className="circle-style">
+              <GlobeLock size={34} className="text-amber-700"/>
+            </div>
+            <p className="text-center">
+              Protect your site with our web security and
+              performance services—ensuring safety, reliability, and a
+              seamless user experience.
+            </p>
+            <h2 className="text-lg uppercase font-semibold">
+              Website Security
+            </h2>
+          </div>
+          <div className="service-card">
+            <div className="circle-style">
+              <TabletSmartphone size={34} className="text-amber-700"/>
+            </div>
+            <p className="text-center">
+              Build powerful, user-friendly mobile apps with our expert
+              development services—designed to bring your ideas to life on iOS
+              and Android.
+            </p>
+            <h2 className="text-lg uppercase font-semibold">
+              Mobile App Development
+            </h2>
+          </div>           
+        </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

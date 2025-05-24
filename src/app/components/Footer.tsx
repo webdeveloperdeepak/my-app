@@ -10,59 +10,80 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import Container from "./Container";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="text-white py-16 px-4 bg-[linear-gradient(to_right,_#8B4513,_#FFD700)]">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
-        {/* About Column */}
-        <div>
-          <h3 className="footer-heading">About</h3>
-          <p className="text-sm text-justify">
-            I am a passionate web developer with a knack for creating dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills.
-          </p>
-        </div>
-        {/* Social Links Column */}
-        <div>
-          <h3 className="footer-heading">Social Links</h3>
-          <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <Linkedin size={18} />
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                Linkedin
+    <div >
+      <Container>
+          <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-9 md:p-0 gap-9 w-full ">
+          {/* About Column */}
+          <div className="flex flex-col">
+            <h3 className="footer-heading">About</h3>
+            <p className="text-md text-justify ">
+              I am a web developer & designer with a knack for creating dynamic and responsive web applications. 
+            </p>
+          </div>
+          {/* Quick Links Column */}
+          <div className="flex flex-col">
+            <h3 className="footer-heading">Quick Links</h3>
+            <div className="flex flex-col gap-2">
+              <Link href="/about" className="text-sm hover:text-white">
+                About Me
               </Link>
-            </div>
-            <div className="flex items-center gap-2">
-              <Facebook size={18} />
-              <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                Facebook
+              <Link href="/contact" className="text-sm hover:text-white">
+                Contact Me
               </Link>
-            </div>
-            <div className="flex items-center gap-2">
-              <Instagram size={18} />
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                Instagram
+              <Link href="/projects"  className="text-sm hover:text-white">
+                My Projects
               </Link>
             </div>
           </div>
-        </div>
-        {/* Contact Column */}
-        <div>
-          <h3 className="footer-heading">Contact</h3>
-          <div className="space-y-2">           
-            <div className="flex items-center gap-2">
-              <Phone size={18} /> +91-7607146249
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail size={18} /> info@webdeveloperdeepak.com
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin size={18} /> Noida Extension, Greater Noida West, India.
+          {/* Social Links Column */}
+          <div className="flex flex-col">
+            <h3 className="footer-heading">Social Links</h3>
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <Linkedin size={18} />
+                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  Linkedin
+                </Link>
+              </div>
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <Facebook size={18} />
+                <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  Facebook
+                </Link>
+              </div>
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <Instagram size={18} />
+                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  Instagram
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </footer>
+          {/* Contact Column */}
+          <div className="flex flex-col">
+            <h3 className="footer-heading">Contact</h3>
+            <div className="space-y-2">           
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <Phone size={18} /> 
+                <a href="tel:+917607146249">Call Us: +91-7607146249</a>
+              </div>
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <Mail size={18} /> 
+                <a href="mailto:info@webdeveloperdeepak.com">Email Us: info@webdeveloperdeepak.com</a>
+              </div>
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <MapPin size={18} /> 
+                <p>Address: Noida Extension, India.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </Container>
+    </div>
   );
 };
 

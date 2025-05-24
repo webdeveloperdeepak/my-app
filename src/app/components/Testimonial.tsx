@@ -51,8 +51,8 @@ const Testimonial : React.FC = () => {
   return (
     <div>
       <Container>
-        <div className="max-w-8xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <h1 className="h1-heading">What Clients Say About Deepak</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-9 w-full">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -73,7 +73,6 @@ const Testimonial : React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
       </Container>
     </div>
   );

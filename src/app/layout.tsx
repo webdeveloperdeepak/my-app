@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -93,7 +95,16 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <NavBar />
         {children}
+        <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24">
+          <Footer />
+        </div>
+        <div className="bg-white text-center py-3">
+          <p className="text-gray-600 font-bold text-sm">
+            All rights reserved © 2025 Deepak Singh. 
+          </p>
+        </div>
       </body>
     </html>
   );

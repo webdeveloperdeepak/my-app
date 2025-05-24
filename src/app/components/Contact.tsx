@@ -57,8 +57,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-9 my-24">
+    <div className="p-9">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-9 my-24 w-full">
         <form onSubmit={handleSubmit} className="formStyle w-full">
           <input
             name="name"
