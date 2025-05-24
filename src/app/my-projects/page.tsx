@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Projects from '../components/Projects';
+import Container from '../components/Container';
 
 const MyProjects : React.FC = () => {
   return (
@@ -10,6 +12,9 @@ const MyProjects : React.FC = () => {
         width={1520}
         height={350}
        />
+       <Container>
+         <Projects />
+       </Container>
     </div>
   )
 }
