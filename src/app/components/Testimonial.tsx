@@ -4,18 +4,16 @@ import Container from "./Container";
 
 const testimonials = [
   {
-    name: "Anjali Mehra",
-    role: "Startup Founder",
-    message:
-      "Deepak transformed our website into a modern, responsive platform. His attention to detail and creative vision are unmatched.",
-    image: "/avatars/anjali.jpg", // Add your local or remote image paths
+    name: "Puneet Pandey",
+    role: "Real Estate Agent, Greater Noida",
+    message: "Deepak transformed our website into a modern, responsive platform. His attention to detail and creative vision are unmatched.",
+    image: "/images/puneet.jpg", // Add your local or remote image paths
   },
   {
-    name: "Rohit Kumar",
-    role: "Marketing Head",
-    message:
-      "We saw a 40% increase in engagement after Deepak redesigned our website. He's a true professional with great communication.",
-    image: "/avatars/rohit.jpg",
+    name: "Gourav Saraf",
+    role: "Company Seceratory, Kolkata",
+    message:"We saw a 40% increase in engagement after Deepak redesigned our website. He's a true professional with great communication.",
+    image: "/images/gourav.png",
   },
   {
     name: "Neha Sharma",
@@ -24,27 +22,27 @@ const testimonials = [
       "I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
     image: "/avatars/neha.jpg",
   },
-  {
-    name: "Vikram Joshi",
-    role: "E-commerce Owner",
-    message:
-      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-    image: "/avatars/vikram.jpg",
-  },
-  {
-    name: "Vikram Joshi",
-    role: "E-commerce Owner",
-    message:
-      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-    image: "/avatars/vikram.jpg",
-  },
-  {
-    name: "Vikram Joshi",
-    role: "E-commerce Owner",
-    message:
-      "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-    image: "/avatars/vikram.jpg",
-  },
+  // {
+  //   name: "Vikram Joshi",
+  //   role: "E-commerce Owner",
+  //   message:
+  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+  //   image: "/avatars/vikram.jpg",
+  // },
+  // {
+  //   name: "Vikram Joshi",
+  //   role: "E-commerce Owner",
+  //   message:
+  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+  //   image: "/avatars/vikram.jpg",
+  // },
+  // {
+  //   name: "Vikram Joshi",
+  //   role: "E-commerce Owner",
+  //   message:
+  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
+  //   image: "/avatars/vikram.jpg",
+  // },
 ];
 
 const Testimonial : React.FC = () => {

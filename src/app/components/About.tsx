@@ -11,7 +11,7 @@ const AboutMe : React.FC = () => {
   return (
     <div>
       <h1 className="h1-heading">About Deepak</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-9 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full">
           <div className="flex flex-col text-justify">
             <p>
               I'm Deepak Singh, a passionate and detail-oriented Web Developer
@@ -40,7 +40,7 @@ const AboutMe : React.FC = () => {
             <h2 className="text-2xl mt-6 font-bold italic">Social Profiles:</h2>
             <div className="mt-3 flex gap-4">
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/webdeveloperdeepak"
                 className="border-[1.5px] border-amber-700 p-3 rounded-md hover:shadow-lg"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,7 +49,7 @@ const AboutMe : React.FC = () => {
                 <FaLinkedin className="text-2xl text-amber-700 hover:text-blue-900" />
               </Link>
               <Link
-                href="https://github.com"
+                href="https://github.com/webdeveloperdeepaksingh"
                 className="border-[1.5px] border-amber-700 p-3 rounded-md hover:shadow-lg"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const AboutMe : React.FC = () => {
                 <FaGithub className="text-2xl text-amber-600 hover:text-black " />
               </Link>
               <Link
-                href="/projects"
+                href="/my-projects"
                 title="My Projects"
                 className="border-[1.5px] border-amber-700 p-3 rounded-md hover:shadow-lg"
               >

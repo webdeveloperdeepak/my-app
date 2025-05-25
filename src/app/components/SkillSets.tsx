@@ -3,14 +3,16 @@ import React from "react";
 
 const skills = {
   frontend: [
-    { name: "Next.js", level: 90 },
-    { name: "React", level: 90 },
-    { name: "Tailwind CSS", level: 95 },
-    { name: "JavaScript", level: 90 },
+    { name: "Next.js", level: 80 },
+    { name: "React", level: 80 },
+    { name: "Tailwind CSS", level: 90 },
+    { name: "JavaScript", level: 75 },
   ],
   backend: [
-    { name: "Node.js", level: 85 },
-    { name: "MongoDB", level: 80 },
+    { name: "Node.js", level: 65 },
+    { name: "MongoDB", level: 50 },
+    { name: "Mongoose", level: 85 },
+    { name: "TypeScript", level: 70 },
   ],
   others: [
     { name: "RESTful APIs", level: 85 },
@@ -21,23 +23,20 @@ const skills = {
 };
 
 const SkillBar = ({ name, level }: { name: string; level: number }) => (
-  <div className="mb-4">
+  <div >
     <div className="flex justify-between mb-1">
       <span className="text-sm font-medium text-gray-700">{name}</span>
       <span className="text-sm text-gray-500">{level}%</span>
     </div>
     <div className="w-full bg-gray-200 rounded-full h-3">
-      <div
-        className="bg-blue-600 h-3 rounded-full"
-        style={{ width: `${level}%` }}
-      ></div>
+      <div className="bg-blue-600 h-3 rounded-full" style={{ width: `${level}%` }}></div>
     </div>
   </div>
 );
 
 const SkillSets: React.FC = () => {
   return (
-    <div className="mb-24">
+    <div className="p-9 w-full">
       <h1 className="h1-heading">My Skill Sets</h1>
       <div className="grid grid-cols-1 border-[1.5px] shadow-lg border-amber-700 p-9 rounded-md md:grid-cols-3 gap-9 w-full ">
         <div className="flex flex-col gap-2">

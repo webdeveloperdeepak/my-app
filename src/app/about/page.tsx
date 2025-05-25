@@ -3,6 +3,7 @@ import AboutMe from "../components/About";
 import Image from "next/image";
 import Container from "../components/Container";
 import SkillSets from "../components/SkillSets";
+import Domains from "../components/Domains";
 
 const About: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const About: React.FC = () => {
       <Container>
         <AboutMe />
         <SkillSets />
+        <Domains />
       </Container>
     </div>
   );
