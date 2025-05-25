@@ -5,18 +5,18 @@ export async function POST(req: NextRequest) {
 
   const { name, email, phone, sub, message } = await req.json();
   const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST, 
-    port: Number(process.env.EMAIL_PORT),
+    host: process.env.SMTP_HOST, 
+    port: Number(process.env.SMTP_PORT),
     secure: true, 
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
     },
   });
 
   const mailOptions = {
-    from: `"${name}" <${process.env.EMAIL_USER}>`,
-    to: process.env.EMAIL_TO,
+    from: `"Web Developer Deepak" <${process.env.SMTP_USER}>`,
+    to: process.env.CONTACT_RECEIVER_EMAIL,
     subject: `${sub}`,
     text: `You have a new enquiry:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${sub}\n\nMessage:\n${message}`,
   };
