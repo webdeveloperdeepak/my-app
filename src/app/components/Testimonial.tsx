@@ -15,12 +15,12 @@ const testimonials = [
     message:"I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
     image: "/images/gourav.png",
   },
-  {
-    name: "Anurag Chhabra, Bangluru",
-    role: "Management",
-    message:"Deepak delivered an outstanding LMS website that's fast, intuitive, and packed with features. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
-    image: "/images/anurag.jpg",
-  },
+  // {
+  //   name: "Anurag Chhabra",
+  //   role: "Management, Bangluru",
+  //   message:"Deepak delivered an outstanding LMS website that's fast, intuitive, and packed with features. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
+  //   image: "/images/anurag.jpg",
+  // },
   // {
   //   name: "Vikram Joshi",
   //   role: "E-commerce Owner",
