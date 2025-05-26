@@ -12,15 +12,14 @@ const testimonials = [
   {
     name: "Gourav Saraf",
     role: "Company Seceratory, Kolkata",
-    message:"We saw a 40% increase in engagement after Deepak redesigned our website. He's a true professional with great communication.",
+    message:"I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
     image: "/images/gourav.png",
   },
   {
-    name: "Neha Sharma",
-    role: "Freelance Writer",
-    message:
-      "I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
-    image: "/avatars/neha.jpg",
+    name: "Anurag Chhabra, Bangluru",
+    role: "Management",
+    message:"Deepak delivered an outstanding LMS website that's fast, intuitive, and packed with features. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
+    image: "/images/anurag.jpg",
   },
   // {
   //   name: "Vikram Joshi",

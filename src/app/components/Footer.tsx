@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <Link href="/contact" className="text-sm hover:text-white">
                 Contact Me
               </Link>
-              <Link href="/projects"  className="text-sm hover:text-white">
+              <Link href="/my-projects"  className="text-sm hover:text-white">
                 My Projects
               </Link>
             </div>
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Linkedin size={18} />
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/webdeveloperdeepak/" target="_blank" rel="noopener noreferrer">
                   Linkedin
                 </Link>
               </div>
