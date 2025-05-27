@@ -18,7 +18,7 @@ const testimonials = [
   {
     name: "Anurag Chhabra",
     role: "Management, Bangluru",
-    message:"Deepak delivered an outstanding LMS website that's fast, intuitive, and packed with features. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
+    message:"Deepak delivered an outstanding LMS website that's fast and intuitive. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
     image: "/images/anurag.jpg",
   },
   // {
