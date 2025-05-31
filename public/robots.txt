@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.webdeveloperdeepak.com
+
+# Sitemaps
+Sitemap: https://www.webdeveloperdeepak.com/sitemap.xml
