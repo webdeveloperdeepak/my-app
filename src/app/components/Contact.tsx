@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
   return (
     <div className="p-9">
       <h1 className="h1-heading">Contact Us</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-9 my-24 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-9 mb-24 mt-4 w-full">
         <form onSubmit={handleSubmit} className="formStyle w-full">
           <input
             name="name"
