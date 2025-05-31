@@ -17,37 +17,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-
-  title: "Deepak Singh | Web Developer & Designer",
-  description: "Web Development & Designing Services in Greater Noida, India",
+  title: "Deepak Singh | Web Developer & Designer in Greater Noida, India",
+  description:"Deepak Singh is a freelance web developer and designer offering custom, responsive, and SEO-friendly web development services in Greater Noida and across India.",
   keywords: [
     "Deepak Singh",
+    "web developer deepak",
+    "web designer deepak",
+    "Deepak Singh web developer",
+    "Deepak Singh web designer",
     "Web Developer",
     "Web Designer",
-    "Freelancer",
-    "Greater Noida",
-    "India",
-    "Web Development Services",
-    "Web Design Services",
     "Freelance Web Developer",
     "Freelance Web Designer",
-    "Freelance Web Development",
-    "Freelance Web Design",
-    "Freelance Web Development Services",
-    "Freelance Web Design Services",
-    "Freelance Web Development in Greater Noida",
-    "Freelance Web Design in Greater Noida",
-    "Freelance Web Development in India",
-    "Freelance Web Design in India",
-    "Freelance Web Development Services in Greater Noida",
-    "Freelance Web Design Services in Greater Noida",
-    "Custom Web Development Solutions",
-    "Custom Web Design Solutions",
+    "Website Developer Greater Noida",
+    "Web Design Greater Noida",
     "Responsive Web Design",
-    "E-commerce Web Development",
-    "E-commerce Web Design",
-    "Responsive Web Development",
+    "SEO Friendly Web Design",
+    "Custom Website Design",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript Developer",
+    "Portfolio Website Design",
+    "E-commerce Website Development",
+    "Web Development India",
+    "Website Redesign",
+    "UI/UX Design",
+    "Professional Web Services India",
+    "Freelance Developer India",
   ],
+  authors: [
+    {
+      name: "Deepak Singh",
+      url: "https://www.webdeveloperdeepak.com",
+    },
+  ],
+  publisher: "Deepak Singh",
+  creator: "Deepak Singh",
+  metadataBase: new URL("https://www.webdeveloperdeepak.com"),
+  alternates: {
+    canonical: "https://www.webdeveloperdeepak.com",
+  },
+  themeColor: "#ffffff",
   icons: {
     icon: "/images/favicon.ico",
     shortcut: "/images/favicon.ico",
@@ -55,7 +68,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Deepak Singh | Web Developer & Designer",
-    description: "Web Development & Designing Services in Greater Noida, India",
+    description:
+      "Freelance web developer and designer in Greater Noida, India. Get responsive, fast, and visually appealing websites tailored for your business.",
     url: "https://www.webdeveloperdeepak.com",
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
@@ -63,7 +77,7 @@ export const metadata: Metadata = {
         url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
         width: 1200,
         height: 630,
-        alt: "Deepak Singh | Web Developer & Designer",
+        alt: "Deepak Singh Web Developer Portfolio",
       },
     ],
     locale: "en_US",
@@ -71,12 +85,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deepak Singh | Web Developer & Designer",
-    description: "Web Development & Designing Services in Greater Noida, India",
+    title: "Deepak Singh | Freelance Web Developer & Designer in India",
+    description:
+      "Offering high-quality web development and design services to businesses and individuals in Greater Noida and across India.",
     images: [
       {
         url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
-        alt: "Deepak Singh | Web Developer & Designer",
+        alt: "Deepak Singh Web Developer Twitter Preview",
       },
     ],
     creator: "@deepak_singh_",
@@ -88,12 +103,13 @@ export const metadata: Metadata = {
     nocache: false,
     noarchive: false,
     noimageindex: false,
-    notranslate: false,    
+    notranslate: false,
   },
 };
 
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
-
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
@@ -106,7 +122,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         </div>
         <div className="bg-white text-center py-3">
           <p className="text-gray-600 font-bold text-sm">
-            All rights reserved © 2025 Deepak Singh. 
+            All rights reserved © 2025 Deepak Singh.
           </p>
         </div>
       </body>
