@@ -163,7 +163,7 @@ const Contact: React.FC = () => {
             <FaPhoneAlt className="mt-1 text-amber-600" />
             <div className="flex flex-col italic">
               <h3 className="text-lg font-semibold">Phone</h3>
-              <p>+91+7607146249</p>
+              <p>+91-7607146249</p>
             </div>
           </div>
           <div className="mt-4 flex items-start gap-2">

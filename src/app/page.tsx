@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import WhyChooseMe from "./components/WhyMe";
 import type { Metadata } from "next";
+import Pricing from "./components/Pricing";
 
 // SEO Metadata
 export const metadata: Metadata = {
@@ -95,6 +96,10 @@ export default function Home() {
 
       <section className="flex flex-col p-9 mb-16">
         <Services />
+      </section>
+
+      <section className="flex flex-col bg-gray-100 p-9">
+        <Pricing />
       </section>
 
       <section className="flex flex-col bg-gray-100 p-9">

@@ -27,7 +27,6 @@
 .h1-heading {
   font-size: 1.875rem;        /* text-3xl */
   text-align: center;         /* text-center */
-  color: #b45450;             /* text-amber-700 */
   margin-top: 1.5rem;           /* mt-4 */
   position: relative;
   font-family: 'Oswald';
@@ -38,7 +37,6 @@
   content: "- - -";
   display: block;
   font-weight: bold;
-  color: #b45450;             /* bg-amber-700 for text hyphens */
   text-align: center;
 }
 
