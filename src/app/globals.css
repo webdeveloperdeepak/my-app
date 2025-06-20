@@ -40,6 +40,13 @@
   text-align: center;
 }
 
+.custom-wa-widget .floating-whatsapp-button {
+  background: linear-gradient(135deg, #A0522D, #FFD700) !important;
+  color: white !important;
+  border: none !important;
+}
+
+
 .footer-heading {
   font-size: 1.5rem;        /* text-3xl */
   color: white;

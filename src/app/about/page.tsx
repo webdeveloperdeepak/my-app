@@ -8,14 +8,24 @@ import type { Metadata } from "next";
 
 //SEO Metadata for About Page
 export const metadata: Metadata = {
-  title: "About Deepak Singh | Freelance Web Developer in Greater Noida",
+  title: "About | Deepak Singh | Freelance Web Developer in Greater Noida",
   description:
     "Learn more about Deepak Singh — a freelance web developer and designer based in Greater Noida, India. Explore his skills, tech stack, and domain expertise.",
   keywords: [
-    "About Deepak Singh",
-    "Freelance Web Developer",
-    "Freelance Web Designer",
-    "Web Developer Greater Noida",
+    "website development services in noida",
+    "website developer in greater noida",
+    "web development in noida",
+    "freelance web development and designing services in india",
+    "website development in noida",
+    "freelance web developer in india.",
+    "freelance web designer in india.",
+    "professiona UI/UX Designer in india.",
+    "professiona website Designer in greater noida.",
+    "professiona web devlopment services in india.",
+    "professiona web designing services in india.",
+    "professiona web devlopment services in greater noida.",
+    "professiona web designing services in greater noida.",
+    "Web Developer Deepak",
     "Frontend Developer",
     "Backend Developer",
     "Full Stack Developer",
@@ -23,12 +33,12 @@ export const metadata: Metadata = {
     "Next.js Developer",
     "JavaScript Developer",
     "Custom Web Development",
-    "Portfolio Website Developer",
-    "Professional Web Development",
-    "UI/UX Developer",
-    "Web Development Skills",
-    "Tech Stack",
-    "About Freelance Developer India"
+    "Responsive web designing services in india.",
+    "best digital marketing services in India.",
+    "freelance MERN-Stack Developer in India.",
+    "seo services in greater noida open now.",
+    "online appointments seo services in greater noida.",
+    "top rated seo services in greater noida."
   ],
   openGraph: {
     title: "About | Deepak Singh | Web Developer & Designer",

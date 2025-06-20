@@ -1,6 +1,4 @@
-"use client";
 import React from 'react';
-import Image from 'next/image';
 import { MdOutlineLocalGroceryStore } from 'react-icons/md';
 import { PiStudentBold } from 'react-icons/pi';
 import { FaUserCircle } from 'react-icons/fa';

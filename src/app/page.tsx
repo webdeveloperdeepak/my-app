@@ -5,6 +5,7 @@ import Testimonial from "./components/Testimonial";
 import WhyChooseMe from "./components/WhyMe";
 import type { Metadata } from "next";
 import Pricing from "./components/Pricing";
+import WhatsAppWidget from "./components/WhatsappWidget";
 
 // SEO Metadata
 export const metadata: Metadata = {
@@ -12,33 +13,33 @@ export const metadata: Metadata = {
   title: "Home | Deepak Singh | Web Developer & Designer in Greater Noida, India",
   description: "Welcome to the official portfolio of Deepak Singh — freelance web developer and designer based in Greater Noida, India. Specializing in custom, responsive, and SEO-friendly web development solutions.",
   keywords: [
-    "Deepak Singh",
-    "web developer deepak",
-    "web designer deepak",
-    "Deepak Singh web developer",
-    "Deepak Singh web designer",
-    "Web Developer",
-    "Web Designer",
-    "Freelance Web Developer",
-    "Freelance Web Designer",
-    "Website Developer Greater Noida",
-    "Web Design Greater Noida",
-    "Responsive Web Design",
-    "SEO Friendly Web Design",
-    "Custom Website Design",
-    "Full Stack Developer",
+    "website development services in noida",
+    "website developer in greater noida",
+    "web development in noida",
+    "freelance web development and designing services in india",
+    "website development in noida",
+    "freelance web developer in india.",
+    "freelance web designer in india.",
+    "professiona UI/UX Designer in india.",
+    "professiona website Designer in greater noida.",
+    "professiona web devlopment services in india.",
+    "professiona web designing services in india.",
+    "professiona web devlopment services in greater noida.",
+    "professiona web designing services in greater noida.",
+    "Web Developer Deepak",
     "Frontend Developer",
     "Backend Developer",
+    "Full Stack Developer",
     "React Developer",
     "Next.js Developer",
     "JavaScript Developer",
-    "Portfolio Website Design",
-    "E-commerce Website Development",
-    "Web Development India",
-    "Website Redesign",
-    "UI/UX Design",
-    "Professional Web Services India",
-    "Freelance Developer India"
+    "Custom Web Development",
+    "Responsive web designing services in india.",
+    "best digital marketing services in India.",
+    "freelance MERN-Stack Developer in India.",
+    "seo services in greater noida open now.",
+    "online appointments seo services in greater noida.",
+    "top rated seo services in greater noida."
   ],
   openGraph: {
     title: "Home | Deepak Singh | Web Developer & Designer in Greater Noida",
@@ -91,24 +92,30 @@ export default function Home() {
       />
 
       <section className="flex flex-col bg-white p-9">
+        <h1 className="h1-heading">About</h1>
         <ShortIntro />
       </section>
 
       <section className="flex flex-col p-9 mb-16">
+        <h1 className="h1-heading">Services</h1>
         <Services />
       </section>
 
       <section className="flex flex-col bg-gray-100 p-9">
+        <h1 className="h1-heading">Pricing Details</h1>
         <Pricing />
       </section>
 
       <section className="flex flex-col bg-gray-100 p-9">
+        <h1 className="h1-heading">Why Choose Me</h1>
         <WhyChooseMe />
       </section>
 
       <section className="flex flex-col bg-gray-100 px-9 pt-9 pb-24">
+        <h1 className="h1-heading">What Clients Say About Deepak</h1>
         <Testimonial />
       </section>
+      <WhatsAppWidget />
     </main>
   );
 }

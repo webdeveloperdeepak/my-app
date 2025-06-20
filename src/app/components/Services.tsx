@@ -8,7 +8,6 @@ const Services: React.FC = () => {
   return (
     <div>
       <Container>
-        <h1 className="h1-heading">Services</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-9 w-full">
           <div className="service-card">
             <div className="circle-style">
