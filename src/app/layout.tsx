@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import WhatsAppWidget from "./components/WhatsappWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -120,10 +121,10 @@ export default function RootLayout({
         <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24">
           <Footer />
         </div>
-        <div className="bg-white text-center py-3">
-          <p className="text-gray-600 font-bold text-sm">
-            All rights reserved © 2025 Deepak Singh.
-          </p>
+        <WhatsAppWidget />
+        <div className="bg-white text-gray-600 font-bold text-sm text-center py-3"> 
+            © {new Date().getFullYear()} Deepak Singh | Web Developer & Designer
+            . All rights reserved.
         </div>
       </body>
     </html>

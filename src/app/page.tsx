@@ -5,7 +5,6 @@ import Testimonial from "./components/Testimonial";
 import WhyChooseMe from "./components/WhyMe";
 import type { Metadata } from "next";
 import Pricing from "./components/Pricing";
-import WhatsAppWidget from "./components/WhatsappWidget";
 
 // SEO Metadata
 export const metadata: Metadata = {
@@ -115,7 +114,6 @@ export default function Home() {
         <h1 className="h1-heading">What Clients Say About Deepak</h1>
         <Testimonial />
       </section>
-      <WhatsAppWidget />
     </main>
   );
 }
