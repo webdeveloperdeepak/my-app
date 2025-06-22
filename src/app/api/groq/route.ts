@@ -1,4 +1,3 @@
-// app/api/groq/route.ts
 import { Groq } from 'groq-sdk';
 import { NextRequest, NextResponse } from 'next/server';
 
