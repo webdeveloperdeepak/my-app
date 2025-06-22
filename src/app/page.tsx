@@ -77,6 +77,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.webdeveloperdeepak.com",
   },
+  other: {
+    "msvalidate.01": "38842424FC3619EE920EA6F59A5AF134",
+  },
 };
 
 export default function Home() {
