@@ -34,13 +34,13 @@ const Projects = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
             <Link
-              href="https://pdlinstitute.org/"
+              href="https://pdlinstitute.org"
               target="_blank"
               className="btnLeft text-center"
             >
               Visit Website
             </Link>
-            <Link href="/#" className="btnRight text-center">
+            <Link href="/https://www.canva.com/design/DAGqCinjXlM/3WR96PYZQ1R6kofYvub4rA/view?utm_content=DAGqCinjXlM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8fe9fc4095" className="btnRight text-center">
               View PDF
             </Link>
           </div>
