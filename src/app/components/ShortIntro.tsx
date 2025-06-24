@@ -22,7 +22,7 @@ const ShortIntro: React.FC = () => {
                     />
                 </div>
                 <div className="flex flex-col justify-center text-justify w-full">
-                    <h1 className="text-3xl font-bold">Hi, I'm Deepak Singh</h1>
+                    <h2 className="text-3xl font-bold">Hi, I'm Deepak Singh</h2>
                     <p className="text-lg mt-4">
                         I am a passionate web developer with a knack for creating dynamic
                         and responsive web applications. I love to explore new technologies

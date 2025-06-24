@@ -21,27 +21,6 @@ const testimonials = [
     message:"Deepak delivered an outstanding LMS website that's fast and intuitive. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
     image: "/images/anurag.jpg",
   },
-  // {
-  //   name: "Vikram Joshi",
-  //   role: "E-commerce Owner",
-  //   message:
-  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-  //   image: "/avatars/vikram.jpg",
-  // },
-  // {
-  //   name: "Vikram Joshi",
-  //   role: "E-commerce Owner",
-  //   message:
-  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-  //   image: "/avatars/vikram.jpg",
-  // },
-  // {
-  //   name: "Vikram Joshi",
-  //   role: "E-commerce Owner",
-  //   message:
-  //     "Our online store is now faster, better-looking, and easier to use. Deepak did a phenomenal job from start to finish.",
-  //   image: "/avatars/vikram.jpg",
-  // },
 ];
 
 const Testimonial : React.FC = () => {

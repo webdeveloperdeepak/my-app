@@ -39,19 +39,19 @@ const SkillSets: React.FC = () => {
       <h1 className="h1-heading">My Skill Sets</h1>
       <div className="grid grid-cols-1 border-[1.5px] shadow-lg border-amber-700 p-9 rounded-md md:grid-cols-3 gap-9 w-full ">
         <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-700 mb-4">Frontend Technologies</h3>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Frontend Technologies</h2>
             {skills.frontend.map((skill) => (
             <SkillBar key={skill.name} name={skill.name} level={skill.level} />
             ))}
         </div>
         <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-700 mb-4">Backend Technologies</h3>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Backend Technologies</h2>
             {skills.backend.map((skill) => (
             <SkillBar key={skill.name} name={skill.name} level={skill.level} />
             ))}
         </div>
         <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-700 mb-4">Other Skills</h3>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Other Skills</h2>
             {skills.others.map((skill) => (
             <SkillBar key={skill.name} name={skill.name} level={skill.level} />
             ))}
