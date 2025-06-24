@@ -93,28 +93,23 @@ export default function Home() {
         priority
       />
 
-      <section className="flex flex-col bg-white p-9">
-        <h1 className="h1-heading">About</h1>
+      <section className="flex bg-white p-9">
         <ShortIntro />
       </section>
 
-      <section className="flex flex-col p-9 mb-16">
-        <h1 className="h1-heading">Services</h1>
+      <section className="flex p-9 mb-16">
         <Services />
       </section>
 
-      <section className="flex flex-col bg-gray-100 p-9">
-        <h1 className="h1-heading">Pricing Details</h1>
+      <section className="flex  bg-gray-100 p-9">
         <Pricing />
       </section>
 
-      <section className="flex flex-col bg-gray-100 p-9">
-        <h1 className="h1-heading">Why Choose Me</h1>
+      <section className="flex  bg-gray-100 p-9">
         <WhyChooseMe />
       </section>
 
       <section className="flex flex-col bg-gray-100 px-9 pt-9 pb-24">
-        <h1 className="h1-heading">What Clients Say About Deepak</h1>
         <Testimonial />
       </section>
     </main>

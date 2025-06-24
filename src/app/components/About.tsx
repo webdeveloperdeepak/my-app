@@ -13,8 +13,7 @@ const AboutMe : React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full">
           <div className="flex flex-col text-justify">
             <p>
-              I'm Deepak Singh, a passionate and detail-oriented Web Developer
-              and Designer with a strong focus on crafting custom, responsive,
+              I'm Deepak Singh, a Web Developer and Designer with a strong focus on crafting custom, responsive,
               and user-centric web applications. I specialize in turning ideas
               into seamless digital experiences by combining clean code, modern
               design principles, and scalable architecture. 
@@ -22,7 +21,7 @@ const AboutMe : React.FC = () => {
               <br/>
               With several years of hands-on experience in full-stack development, I’ve built a
               diverse range of projects—from dynamic dashboards and admin panels
-              to fully functional e-commerce platforms and SaaS applications.<br/>
+              to fully functional e-commerce platforms and LMS Web applications.<br/>
               <br/>What sets
               me apart is my dual strength in both development and design. I
               have a deep appreciation for aesthetics, usability, and clean

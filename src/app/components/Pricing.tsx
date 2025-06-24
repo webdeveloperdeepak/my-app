@@ -74,6 +74,7 @@ const Pricing: React.FC = () => {
   return (
     <div>
       <Container>
+        <h1 className="h1-heading">Pricing Details</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 w-auto p-9">
             {pricingData.map((plan, idx) => (
             <div
