@@ -40,7 +40,11 @@ const Projects = () => {
             >
               Visit Website
             </Link>
-            <Link href="/https://www.canva.com/design/DAGqCinjXlM/3WR96PYZQ1R6kofYvub4rA/view?utm_content=DAGqCinjXlM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8fe9fc4095" className="btnRight text-center">
+            <Link 
+              href="/https://www.canva.com/design/DAGqCinjXlM/3WR96PYZQ1R6kofYvub4rA/view?utm_content=DAGqCinjXlM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8fe9fc4095" 
+              className="btnRight text-center"
+              target="_blank"
+            >
               View PDF
             </Link>
           </div>
