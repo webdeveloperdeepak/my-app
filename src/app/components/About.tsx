@@ -9,7 +9,7 @@ const AboutMe : React.FC = () => {
 
   return (
     <div>
-      <h1 className="h1-heading">About Deepak</h1>
+      <h1 className="h1-heading mt-9">About Deepak</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full">
           <div className="flex flex-col text-justify">
             <p>

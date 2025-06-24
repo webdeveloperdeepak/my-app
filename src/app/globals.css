@@ -26,8 +26,8 @@
 .h1-heading {
   font-size: 1.875rem;        /* text-3xl */
   text-align: center;         /* text-center */
-  margin-top: 1.5rem;           /* mt-4 */
   position: relative;
+  marign-top: 2.5rem; 
   font-family: 'Oswald';
   font-weight: 600;
 }
@@ -35,16 +35,10 @@
 .h1-heading::after {
   content: "- - -";
   display: block;
+  margin-bottom: 2.5rem; 
   font-weight: bold;
   text-align: center;
 }
-
-.custom-wa-widget .floating-whatsapp-button {
-  background: linear-gradient(135deg, #A0522D, #FFD700) !important;
-  color: white !important;
-  border: none !important;
-}
-
 
 .footer-heading {
   font-size: 1.5rem;        /* text-3xl */

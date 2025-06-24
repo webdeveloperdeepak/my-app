@@ -93,24 +93,24 @@ export default function Home() {
         priority
       />
 
-      <section className="flex bg-white p-9">
+      <section className="flex bg-white justify-center p-9">
         <ShortIntro />
       </section>
 
-      <section className="flex p-9 mb-16">
+      <section className="flex bg-white justify-center p-9 ">
         <Services />
       </section>
 
-      <section className="flex  bg-gray-100 p-9">
+      <section className="flex bg-gray-100 justify-center p-9">
         <Pricing />
       </section>
 
-      <section className="flex  bg-gray-100 p-9">
-        <WhyChooseMe />
+      <section className="flex  bg-gray-100 justify-center p-9">
+        <Testimonial />
       </section>
 
-      <section className="flex flex-col bg-gray-100 px-9 pt-9 pb-24">
-        <Testimonial />
+      <section className="flex  bg-gray-100 justify-center pt-9 pb-24">
+        <WhyChooseMe />
       </section>
     </main>
   );

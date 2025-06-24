@@ -118,7 +118,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
-        <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24">
+        <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24 ">
           <Footer />
         </div>
         <WhatsAppWidget />
