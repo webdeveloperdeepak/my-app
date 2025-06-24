@@ -49,7 +49,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full border-[1.5px] border-amber-600 shadow-lg rounded-md mb-12">
         <div className="flex items-center justify-center">
           <Image
-            alt="Portfolio-Project"
+            alt="LMS-Project"
             src="/images/godrej_majesty.png"
             width={600}
             height={450}
@@ -62,23 +62,56 @@ const Projects = () => {
             the finest in real estate living. This single-page website presents
             a sleek, user-friendly experience, offering all the essential
             details about the property — from luxurious amenities and modern
-            apartment configurations to competitive pricing options. 
+            apartment configurations to competitive pricing options.
             <br />
             <br />
-            Whether
-            you're interested in 2BHK, 3BHK, or premium residences, everything
-            is organized for quick exploration. The site also features a
-            seamless Contact Us section to connect potential buyers directly
-            with the sales team. Built with performance and responsiveness in
-            mind, this site delivers both style and function to elevate your
-            property’s online presence.
+            Whether you're interested in 2BHK, 3BHK, or premium residences,
+            everything is organized for quick exploration. The site also
+            features a seamless Contact Us section to connect potential buyers
+            directly with the sales team. Built with performance and
+            responsiveness in mind, this site delivers both style and function
+            to elevate your property’s online presence.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
-            <Link href="https://www.godrejmajesty-noida.com/" target="_blank" className="btnLeft text-center">
+          <div className="grid grid-cols-1 gap-1">
+            <Link
+              href="https://www.godrejmajesty-noida.com/"
+              target="_blank"
+              className="btnLeft text-center"
+            >
               Visit Website
             </Link>
-            <Link href="/#" className="btnRight text-center">
-              No PDF
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full border-[1.5px] border-amber-600 shadow-lg rounded-md mb-12">
+        <div className="flex items-center justify-center bg-brandBlue">
+          <Image
+            alt="e-Commerce-Project"
+            src="/images/cry.png"
+            width={600}
+            height={450}
+          />
+        </div>
+        <div className="flex flex-col gap-4">
+          <h2 className="text-2xl font-bold">Carry Home: E-Commerce</h2>
+          <p className="text-justify">
+            It is a feature-rich e-commerce website designed for a
+            seamless shopping experience. Whether you're a customer looking for
+            the perfect product or an admin managing your store, we've got
+            everything you need:<br /><br />
+           ✅User-Friendly Admin Panel.<br />🛍️ Add to Cart Functionality. <br />🔍 Global Product
+            Search. <br />📂 Category-Wise Filtering. <br />✍️ Verified
+            User Reviews. <br /><br />From browsing to buying and
+            managing, this platform is built for performance, reliability, and
+            ease of use.
+          </p>
+          <div className="grid grid-cols-1 gap-1">
+            <Link
+              href="https://caryhome.vercel.app"
+              target="_blank"
+              className="btnLeft text-center"
+            >
+              Visit Website
             </Link>
           </div>
         </div>
