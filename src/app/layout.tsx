@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import WhatsAppWidget from "./components/WhatsappWidget";
+import ClarityInit from "./components/ClarityInit";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -113,6 +114,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
         {children}
+        <ClarityInit />
         <Analytics />
         <SpeedInsights />
         <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24 ">
