@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import WhatsAppWidget from "./components/WhatsappWidget";
 import ClarityInit from "./components/ClarityInit";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -114,8 +115,9 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
         {children}
-        <ClarityInit />
-        <Analytics />
+        <ClarityInit /> 
+        <Analytics /> 
+        <GoogleAnalytics />
         <SpeedInsights />
         <div className="bg-[linear-gradient(to_right,_#8B4513,_#FFD700)] py-24 ">
           <Footer />
