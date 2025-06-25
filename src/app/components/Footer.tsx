@@ -16,17 +16,17 @@ const Footer: React.FC = () => {
   return (
     <div >
       <Container>
-          <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-9 md:p-0 gap-9 w-full ">
+        <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-9 md:p-0 gap-9 w-full ">
           {/* About Column */}
           <div className="flex flex-col">
-            <h3 className="footer-heading">About</h3>
+            <h2 className="footer-heading">About</h2>
             <p className="text-md text-justify ">
               I am a web developer & designer with a knack for creating dynamic and responsive web applications. 
             </p>
           </div>
           {/* Quick Links Column */}
           <div className="flex flex-col">
-            <h3 className="footer-heading">Quick Links</h3>
+            <h2 className="footer-heading">Quick Links</h2>
             <div className="flex flex-col gap-2">
               <Link href="/about" className="text-sm hover:text-white">
                 About Me
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Social Links Column */}
           <div className="flex flex-col">
-            <h3 className="footer-heading">Social Links</h3>
+            <h2 className="footer-heading">Social Links</h2>
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Linkedin size={18} />
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Contact Column */}
           <div className="flex flex-col">
-            <h3 className="footer-heading">Contact</h3>
+            <h2 className="footer-heading">Contact</h2>
             <div className="space-y-2">           
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Phone size={18} /> 

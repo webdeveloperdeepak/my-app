@@ -8,7 +8,7 @@ const Services: React.FC = () => {
   return (
     <div>
       <Container>
-        <h1 className="h1-heading">Services</h1>
+        <h2 className="h1-heading">Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-9 w-full">
           <div className="service-card">
             <div className="circle-style">
@@ -19,9 +19,9 @@ const Services: React.FC = () => {
               services—tailored solutions that drive growth, performance, and
               user engagement.
             </p>
-            <h2 className="text-lg uppercase font-semibold rounded-md">
+            <h3 className="text-lg uppercase font-semibold rounded-md">
               Custom Web Development
-            </h2>
+            </h3>
           </div>
           <div className="service-card">
             <div className="circle-style">
@@ -32,9 +32,9 @@ const Services: React.FC = () => {
               responsive, and user-focused designs that captivate and convert
               your audience.
             </p>
-            <h2 className="text-lg uppercase font-semibold">
+            <h3 className="text-lg uppercase font-semibold">
               Custom Website Designing
-            </h2>
+            </h3>
           </div>
           <div className="service-card">
             <div className="circle-style">
@@ -45,9 +45,9 @@ const Services: React.FC = () => {
               services—drive traffic, rank higher on search engines, and grow
               your digital presence effectively.
             </p>
-            <h2 className="text-lg uppercase font-semibold">
+            <h3 className="text-lg uppercase font-semibold">
               SEO & Speed Optimization
-            </h2>
+            </h3>
           </div>
           <div className="service-card">
             <div className="circle-style">
@@ -58,9 +58,9 @@ const Services: React.FC = () => {
               web maintenance services—so you can focus on growing your
               business.
             </p>
-            <h2 className="text-lg uppercase font-semibold">
+            <h3 className="text-lg uppercase font-semibold">
               Web Maintenance & Support
-            </h2>
+            </h3>
           </div>
           <div className="service-card">
             <div className="circle-style">
@@ -71,9 +71,9 @@ const Services: React.FC = () => {
               performance services—ensuring safety, reliability, and a
               seamless user experience.
             </p>
-            <h2 className="text-lg uppercase font-semibold">
+            <h3 className="text-lg uppercase font-semibold">
               Website Security
-            </h2>
+            </h3>
           </div>
           <div className="service-card">
             <div className="circle-style">
@@ -84,9 +84,9 @@ const Services: React.FC = () => {
               development services—designed to bring your ideas to life on iOS
               and Android.
             </p>
-            <h2 className="text-lg uppercase font-semibold">
+            <h3 className="text-lg uppercase font-semibold">
               Mobile App Development
-            </h2>
+            </h3>
           </div>           
         </div>
       </Container>

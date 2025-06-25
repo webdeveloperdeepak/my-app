@@ -74,7 +74,7 @@ const Pricing: React.FC = () => {
   return (
     <div>
       <Container>
-        <h1 className="h1-heading">Pricing Details</h1>
+        <h2 className="h1-heading">Pricing Details</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 w-auto p-9">
             {pricingData.map((plan, idx) => (
             <div
@@ -82,7 +82,7 @@ const Pricing: React.FC = () => {
                 className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300"
             >
                 <div>
-                <h2 className="text-3xl font-bold text-center text-amber-600">{plan.title}</h2>               
+                <h3 className="text-3xl font-bold text-center text-amber-600">{plan.title}</h3>               
                 <p className="text-xl font-bold text-center text-gray-800 mt-2">{plan.price}</p>
                 <ul className="mt-6 space-y-3">
                     {plan.features.map((feature, i) => (
