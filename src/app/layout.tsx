@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import WhatsAppWidget from "./components/WhatsappWidget";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Deepak Singh | Web Developer & Designer in Greater Noida, India",
-  description:"Deepak Singh is a freelance web developer and designer offering custom, responsive, and SEO-friendly web development services in Greater Noida and across India.",
+  description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
   keywords: [
     "Deepak Singh",
     "web developer deepak",
@@ -69,8 +70,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Deepak Singh | Web Developer & Designer",
-    description:
-      "Freelance web developer and designer in Greater Noida, India. Get responsive, fast, and visually appealing websites tailored for your business.",
+    description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
     url: "https://www.webdeveloperdeepak.com",
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
@@ -87,8 +87,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Deepak Singh | Freelance Web Developer & Designer in India",
-    description:
-      "Offering high-quality web development and design services to businesses and individuals in Greater Noida and across India.",
+    description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
     images: [
       {
         url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
@@ -103,16 +102,24 @@ export const metadata: Metadata = {
     follow: true,
     nocache: false,
     noarchive: false,
+    nosnippet: false,
     noimageindex: false,
     notranslate: false,
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <Script id="clarity-script" strategy="afterInteractive">
+        {`
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "s4yh5ht2jp");
+        `}
+      </Script>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
         {children}

@@ -40,8 +40,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Contact Deepak Singh | Web Developer & Designer",
-    description:
-      "Want to work together? Contact Deepak Singh for freelance web development, custom websites, and responsive designs.",
+    description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
     url: "https://www.webdeveloperdeepak.com/contact",
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
@@ -57,9 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Deepak Singh | Freelance Web Developer",
-    description:
-      "Start your web project by contacting Deepak Singh — expert in responsive, SEO-friendly website development.",
+    title: "Contact | Deepak Singh | Freelance Web Developer",
+    description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
     creator: "@deepak_singh_",
     site: "@deepak_singh_",
     images: [
@@ -75,6 +73,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: false,
+    noarchive: false,
+    nosnippet: false,
+    noimageindex: false,
+    notranslate: false,
   },
 };
 

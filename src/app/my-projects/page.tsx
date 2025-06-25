@@ -39,8 +39,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Projects | Deepak Singh | Web Developer & Designer",
-    description:
-      "A showcase of web development projects by Deepak Singh — including responsive sites, full-stack applications, and modern UI/UX implementations.",
+    description:"Explore web development projects by Deepak Singh, featuring responsive websites, full-stack apps, and modern UI/UX designs for clients in India and worldwide.",
     url: "https://www.webdeveloperdeepak.com/projects",
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
@@ -57,8 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Projects | Deepak Singh | Freelance Web Developer",
-    description:
-      "Browse real-world web projects created by Deepak Singh, freelance developer from Greater Noida, India.",
+    description:"Explore web development projects by Deepak Singh, featuring responsive websites, full-stack apps, and modern UI/UX designs for clients in India and worldwide.",
     creator: "@deepak_singh_",
     site: "@deepak_singh_",
     images: [
@@ -74,6 +72,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: false,
+    noarchive: false,
+    nosnippet: false,
+    noimageindex: false,
+    notranslate: false,
   },
 };
 
