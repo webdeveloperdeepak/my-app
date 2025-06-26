@@ -1,5 +1,7 @@
 "use client";
 
+import toast from "react-hot-toast";
+
 export default function UrlPing() {
 
   async function handlePing() {
@@ -15,15 +17,20 @@ export default function UrlPing() {
       }),
     });
     const data = await res.json();
-    console.log("Ping response:", data);
+    if(data.success === true){
+      toast.success("Pinged IndexNow successfully!");
+    } else{
+      toast.error("Failed to ping IndexNow.");
+      console.error("Ping error:", data.error || "Unknown error");
+    }
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen p-32">
+    <div className="flex flex-col items-center justify-center p-28">
       <button 
         type="button"
         onClick={handlePing}
-        className="btnLeft w-12"
+        className="btnLeft w-auto"
       >
         Ping IndexNow
       </button>
