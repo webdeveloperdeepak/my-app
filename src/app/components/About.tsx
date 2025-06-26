@@ -67,7 +67,7 @@ const AboutMe : React.FC = () => {
           <div className="flex flex-col justify-center items-center rounded-md">
             <Image
               alt="About Deepak Singh-Web Devloper & Designer"
-              src="/images/deepak-singh.jpg"
+              src="/deepak-singh.jpg"
               width={600}
               height={600}
             />

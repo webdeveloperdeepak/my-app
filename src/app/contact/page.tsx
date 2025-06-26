@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/inrBnr.png",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         width: 1200,
         height: 630,
         alt: "Contact Deepak Singh - Freelance Web Developer",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     site: "@deepak_singh_",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/inrBnr.png",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         alt: "Contact Freelance Web Developer - Deepak Singh",
       },
     ],
@@ -86,7 +86,7 @@ const ContactUs: React.FC = () => {
     <div>
       <Image
         alt="web-development-services in Greater Noida"
-        src="/images/inrBnr.png"
+        src="/inrBnr.png"
         width={1520}
         height={350}
       />

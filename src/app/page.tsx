@@ -87,7 +87,7 @@ export default function Home() {
     <main>
       <Image
         alt="Deepak Singh - Freelance Web Developer in Greater Noida"
-        src="/images/deepaksingh-webdeveloper.png"
+        src="/deepaksingh-webdeveloper.png"
         width={1520}
         height={820}
         priority

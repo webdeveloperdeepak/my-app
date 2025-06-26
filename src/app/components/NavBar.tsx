@@ -18,10 +18,10 @@ const NavBar : React.FC = () => {
        <Container>
         <nav className="relative flex justify-between items-center bg-white p-4 w-full">
           {/* Logo and Name */}
-          <div className="flex items-center space-x-4">
+          <Link className="flex items-center space-x-4" href="/">
             <Image
               alt="Deepak Singh - Web Developer"
-              src="/images/deepak-singh.jpg"
+              src="/deepak-singh.jpg"
               width={60}
               height={60}
               className="rounded-full"
@@ -29,7 +29,7 @@ const NavBar : React.FC = () => {
             <h1 className="hidden title-style md:block text-lg font-semibold ">
               Deepak Singh | Web Developer & Designer
             </h1>
-          </div>
+          </Link>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/" className="menuItem">Home</Link>

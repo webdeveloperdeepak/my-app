@@ -7,19 +7,19 @@ const testimonials = [
     name: "Puneet Luthra",
     role: "Real Estate Agent, Greater Noida",
     message: "Deepak transformed our website into a modern, responsive platform. His attention to detail and creative vision are unmatched.",
-    image: "/images/puneet.jpg", // Add your local or remote image paths
+    image: "/puneet.jpg", // Add your local or remote image paths
   },
   {
     name: "Gourav Saraf",
     role: "Company Seceratory, Kolkata",
     message:"I needed a portfolio and Deepak delivered beyond expectations. Clean code, great design, and smooth delivery.",
-    image: "/images/gourav.png",
+    image: "/gourav.png",
   },
   {
     name: "Anurag Chhabra",
     role: "Management, Bangluru",
     message:"Deepak delivered an outstanding LMS website that's fast and intuitive. His clean design, and reliable support made the entire process smooth and hassle-free. Highly recommend his development expertise!",
-    image: "/images/anurag.jpg",
+    image: "/anurag.jpg",
   },
 ];
 

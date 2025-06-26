@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Container from "./Container";
 import { FileCog, FileJson, FileSearch2, GlobeLock, Palette, TabletSmartphone } from "lucide-react";
 

@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="flex items-center justify-center">
           <Image
             alt="LMS-Project"
-            src="/images/pdlInstitute.jpg"
+            src="/pdlInstitute.jpg"
             width={600}
             height={450}
           />
@@ -53,8 +53,8 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-9 w-full border-[1.5px] border-amber-600 shadow-lg rounded-md mb-12">
         <div className="flex items-center justify-center">
           <Image
-            alt="LMS-Project"
-            src="/images/godrej_majesty.png"
+            alt="Portfolio-Project"
+            src="/godrej_majesty.png"
             width={600}
             height={450}
           />
@@ -91,7 +91,7 @@ const Projects = () => {
         <div className="flex items-center justify-center bg-brandBlue">
           <Image
             alt="e-Commerce-Project"
-            src="/images/cry.png"
+            src="/cry.png"
             width={600}
             height={450}
           />

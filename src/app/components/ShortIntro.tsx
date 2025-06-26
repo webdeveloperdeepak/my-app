@@ -16,7 +16,7 @@ const ShortIntro: React.FC = () => {
                 <div className="w-full">
                     <Image
                         alt="Deepak Singh-Web Developer"
-                        src="/images/deepak-singh.jpg"
+                        src="/deepak-singh.jpg"
                         width={600}
                         height={600}
                     />

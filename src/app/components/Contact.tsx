@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
           )}
           <Image
             alt="Contact-Us"
-            src="/images/contact.jpg"
+            src="/contact.jpg"
             className="opacity-80"
             width={600}
             height={300}
