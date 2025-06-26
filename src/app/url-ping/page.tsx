@@ -19,12 +19,14 @@ export default function UrlPing() {
   }
 
   return (
-    <button 
+    <div className="flex flex-col items-center justify-center h-screen p-32">
+      <button 
         type="button"
         onClick={handlePing}
         className="btnLeft w-12"
-    >
-      Ping IndexNow
-    </button>
+      >
+        Ping IndexNow
+      </button>
+    </div>
   );
 }
