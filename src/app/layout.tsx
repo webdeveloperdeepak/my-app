@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import WhatsAppWidget from "./components/WhatsappWidget";
 import ClarityInit from "./components/ClarityInit";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -112,6 +113,13 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:title" content="Deepak Singh | Web Developer & Designer in Greater Noida, India" />
+        <meta property="og:description" content="Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide." />
+        <meta property="og:image" content="https://www.webdeveloperdeepak.com/images/deepak-singh.jpg" />
+        <meta property="og:url" content="https://www.webdeveloperdeepak.com" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
         {children}
