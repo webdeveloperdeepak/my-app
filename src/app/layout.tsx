@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Oswald,Inter  } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -10,15 +10,9 @@ import ClarityInit from "./components/ClarityInit";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Head from "next/head";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Deepak Singh | Web Developer & Designer in Greater Noida, India",
@@ -112,7 +106,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
       <Head>
         <meta property="og:title" content="Deepak Singh | Web Developer & Designer in Greater Noida, India" />
         <meta property="og:description" content="Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide." />
@@ -120,7 +114,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         <meta property="og:url" content="https://www.webdeveloperdeepak.com" />
         <meta property="og:type" content="website" />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body >
         <NavBar />
         {children}
         <ClarityInit /> 

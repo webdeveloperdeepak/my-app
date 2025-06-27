@@ -109,7 +109,7 @@ export default function Home() {
         <Testimonial />
       </section>
 
-      <section className="flex  bg-gray-100 justify-center pt-9 pb-24">
+      <section className="flex  justify-center pt-9 pb-18">
         <WhyChooseMe />
       </section>
     </main>

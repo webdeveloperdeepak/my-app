@@ -64,10 +64,12 @@ const AboutMe : React.FC = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center rounded-md">
+          <div className="flex flex-col justify-center items-center border-[1.5px] p-9">
             <Image
               alt="About Deepak Singh-Web Devloper & Designer"
               src="/deepak-singh.jpg"
+              className="rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+              title="Deepak Singh - Web Developer & Designer"
               width={600}
               height={600}
             />
