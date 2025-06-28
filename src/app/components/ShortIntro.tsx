@@ -33,7 +33,7 @@ const ShortIntro: React.FC = () => {
             </h2>
 
             <p className="text-lg leading-relaxed mb-4">
-              I'm a passionate web developer focused on building dynamic,
+              I'm a MERN-Stack Web Developer focused on building dynamic,
               responsive, and impactful applications. My goal is to blend clean
               code with modern design to deliver fast and user-friendly
               experiences.
