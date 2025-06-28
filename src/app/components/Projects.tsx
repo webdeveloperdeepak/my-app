@@ -42,7 +42,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 mb-16">
+    <section className="max-w-7xl mx-auto py-12 px-9 mb-16">
       <h1 className="text-4xl md:text-5xl font-bold text-center text-amber-700 mb-14 tracking-tight">
         My Projects
       </h1>

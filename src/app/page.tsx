@@ -84,34 +84,19 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main >
       <Image
-        alt="Deepak Singh - Freelance Web Developer in Greater Noida"
+        alt="Deepak Singh | Freelance Web Developer in Greater Noida, India."
         src="/deepaksingh-webdeveloper.png"
         width={1520}
         height={820}
         priority
       />
-
-      <section className="flex bg-white justify-center p-9">
-        <ShortIntro />
-      </section>
-
-      <section className="flex bg-white justify-center p-9 ">
-        <Services />
-      </section>
-
-      <section className="flex bg-gray-100 justify-center p-9">
-        <Pricing />
-      </section>
-
-      <section className="flex  bg-gray-100 justify-center p-9">
-        <Testimonial />
-      </section>
-
-      <section className="flex  justify-center pt-9 pb-18">
-        <WhyChooseMe />
-      </section>
+      <ShortIntro />
+      <Services />
+      <Pricing />
+      <Testimonial />
+      <WhyChooseMe />
     </main>
   );
 }

@@ -28,7 +28,7 @@ const testimonials = [
 
 const Testimonial: React.FC = () => {
   return (
-    <section className="bg-gray-100 py-12 w-full">
+    <section className="bg-amber-100 pt-9 pb-24 px-9 w-full">
       <Container>
         <h2 className="h1-heading">
           What Clients Say About Deepak

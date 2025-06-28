@@ -16,7 +16,7 @@ const reasons = [
 
 const WhyChooseMe: React.FC = () => {
   return (
-    <section className="py-12 bg-white w-full">
+    <section className="py-12 px-9 bg-white w-full">
       <Container>
         <h2 className="h1-heading">
           Why Choose Me

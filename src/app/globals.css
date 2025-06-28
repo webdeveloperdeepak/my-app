@@ -25,14 +25,13 @@
 
 .h1-heading {
   position: relative;
-  marign-top: 2.5rem; 
   font-family: 'Oswald';
   color: #b45309;
   font-size: 2.50rem;       /* text-4xl (base) */
   font-weight: 700;         /* font-bold */
   text-align: center;       /* text-center */
   color: #b45309;           /* text-amber-700 */
-  margin-bottom: 3.5rem;    /* mb-14 */
+  margin-bottom: 3.75rem;    /* mb-14 */
   letter-spacing: -0.01562em; /* tracking-tight */
 }
 
@@ -42,14 +41,6 @@
   }
 }
 
-
-.h1-heading::after {
-  content: "- - -";
-  display: block;
-  margin-bottom: 2.5rem; 
-  font-weight: bold;
-  text-align: center;
-}
 
 .footer-heading {
   font-size: 1.5rem;        /* text-3xl */

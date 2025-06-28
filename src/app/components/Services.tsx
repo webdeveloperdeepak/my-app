@@ -51,7 +51,7 @@ const services = [
 
 const Services: React.FC = () => {
   return (
-    <section className="bg-white py-12 w-full">
+    <section className=" pt-12 py-24 bg-amber-100 px-9 w-full">
       <Container>
         <h2 className="h1-heading">
           Services

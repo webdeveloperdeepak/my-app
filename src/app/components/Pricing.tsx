@@ -72,14 +72,14 @@ const pricingData = [
 
 const Pricing: React.FC = () => {
   return (
-    <div>
+    <div className='bg-white pt-12 py-24 px-9 w-full'>
       <Container>
         <h2 className="h1-heading">Pricing Details</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 w-auto p-9">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 w-auto">
             {pricingData.map((plan, idx) => (
             <div
                 key={idx}
-                className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300"
+                className="bg-gray-100 rounded-2xl shadow-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-all duration-300"
             >
                 <div>
                 <h3 className="text-3xl font-bold text-center text-amber-600">{plan.title}</h3>               

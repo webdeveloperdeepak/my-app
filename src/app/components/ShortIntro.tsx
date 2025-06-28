@@ -8,7 +8,7 @@ const ShortIntro: React.FC = () => {
   const router = useRouter();
 
   return (
-    <section className="py-14 bg-white">
+    <section className="pt-9 pb-24 bg-white px-9 w-full">
       <Container>
         <h1 className="h1-heading">
           Professional Web Development Services
