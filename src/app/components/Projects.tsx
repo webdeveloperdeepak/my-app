@@ -7,7 +7,7 @@ const projectData = [
   {
     title: "PDL Institute: LMS",
     image: "/pdlInstitute.jpg",
-    description: `A powerful Learning Management System enabling course management, class scheduling, user authentication, and progress tracking. Features admin permissions, reports, and user-friendly design.`,
+    description: `A Learning Management System enabling course management, class scheduling, user authentication, and progress tracking. Features admin permissions, reports, and user-friendly design.`,
     links: [
       { label: "Visit Website", href: "https://pdlinstitute.org" },
       {
@@ -54,13 +54,13 @@ const Projects = () => {
             className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white/90 border border-amber-300 shadow-md rounded-3xl overflow-hidden backdrop-blur-sm transition-all duration-300 hover:shadow-xl"
           >
             {/* Image */}
-            <div className="overflow-hidden">
+            <div className="overflow-hidden h-[245px] ">
               <Image
                 alt={project.title}
                 src={project.image}
                 width={700}
-                height={250}
-                className="object-cover w-full h-[250px] hover:scale-105 transition-transform duration-500"
+                height={245}
+                className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
               />
             </div>
 

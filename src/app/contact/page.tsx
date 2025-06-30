@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     "Get in touch with Deepak Singh, a freelance web developer and designer in Greater Noida, India. Let's discuss your website, portfolio, or e-commerce project.",
   keywords: [
+    "web developer deepak",
     "website development services in noida",
     "website developer in greater noida",
     "web development in noida",

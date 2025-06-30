@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Home | Deepak Singh | Web Developer & Designer in Greater Noida, India",
   description: "Welcome to the official portfolio of Deepak Singh — freelance web developer and designer based in Greater Noida, India. Specializing in custom, responsive, and SEO-friendly web development solutions.",
   keywords: [
+    "web developer deepak",
     "website development services in noida",
     "website developer in greater noida",
     "web development in noida",

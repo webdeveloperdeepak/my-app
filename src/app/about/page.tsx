@@ -9,9 +9,9 @@ import type { Metadata } from "next";
 //SEO Metadata for About Page
 export const metadata: Metadata = {
   title: "About | Deepak Singh | Freelance Web Developer in Greater Noida",
-  description:
-    "Learn more about Deepak Singh — a freelance web developer and designer based in Greater Noida, India. Explore his skills, tech stack, and domain expertise.",
+  description:"Learn more about Deepak Singh — a freelance web developer and designer based in Greater Noida, India. Explore his skills, tech stack, and domain expertise.",
   keywords: [
+    "web developer deepak",
     "website development services in noida",
     "website developer in greater noida",
     "web development in noida",
