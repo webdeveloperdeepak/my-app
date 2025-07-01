@@ -8,7 +8,6 @@ import NavBar from "./components/NavBar";
 import WhatsAppWidget from "./components/WhatsappWidget";
 import ClarityInit from "./components/ClarityInit";
 import GoogleAnalytics from "./components/GoogleAnalytics";
-import Head from "next/head";
 
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
