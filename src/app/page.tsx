@@ -6,7 +6,6 @@ import WhyChooseMe from "./components/WhyMe";
 import type { Metadata } from "next";
 import Pricing from "./components/Pricing";
 
-// SEO Metadata
 export const metadata: Metadata = {
 
   title: "Home | Deepak Singh | Web Developer & Designer in Greater Noida, India",
@@ -52,8 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Deepak Singh | Web Developer & Designer",
-    description:
-      "Explore the web development portfolio of Deepak Singh. Specializing in modern, fast, and responsive websites using Next.js, React, and more.",
+    description:"Explore the web development portfolio of Deepak Singh. Specializing in modern, fast, and responsive websites using Next.js, React, and more.",
     creator: "@deepak_singh_",
     site: "@deepak_singh_",
     images: [
@@ -66,6 +64,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: false,
+    noarchive: false,
+    nosnippet: false,
+    noimageindex: false,
+    notranslate: false,
   },
   alternates: {
     canonical: "https://www.webdeveloperdeepak.com",

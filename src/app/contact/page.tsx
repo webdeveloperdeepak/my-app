@@ -4,7 +4,6 @@ import Contact from '../components/Contact';
 import Container from '../components/Container';
 import type { Metadata } from 'next';
 
-// ✅ SEO Metadata for Contact Page
 export const metadata: Metadata = {
   title: "Contact | Deepak Singh | Freelance Web Developer in Greater Noida",
   description:"Get in touch with Deepak Singh, a freelance web developer and designer in Greater Noida, India. Let's discuss your website, portfolio, or e-commerce project.",
