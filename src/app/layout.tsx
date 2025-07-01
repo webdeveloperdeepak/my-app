@@ -18,33 +18,26 @@ export const metadata: Metadata = {
   title: "Deepak Singh | Web Developer & Designer in Greater Noida, India",
   description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
   keywords: [
-    "Deepak Singh",
     "web developer deepak",
-    "web designer deepak",
-    "Deepak Singh web developer",
-    "Deepak Singh web designer",
-    "Web Developer",
-    "Web Designer",
-    "Freelance Web Developer in Noida",
-    "Freelance Web Designer in Noida",
-    "Web Developer in Greater Noida",
-    "Web Designer in Greater Noida",
-    "Responsive Web Design",
-    "SEO Friendly Web Design",
-    "Custom Website Design",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "JavaScript Developer",
-    "Portfolio Website Design",
-    "E-commerce Website Development",
-    "Web Development India",
-    "Website Redesign",
-    "UI/UX Design",
-    "Professional Web Services India",
-    "Freelance Developer India",
+    "website development services in noida",
+    "website developer in greater noida",
+    "web development in noida",
+    "freelance web development and designing services in india",
+    "website development in noida",
+    "freelance web developer in india.",
+    "freelance web designer in india.",
+    "professiona UI/UX Designer in india.",
+    "professiona website Designer in greater noida.",
+    "professiona web devlopment services in india.",
+    "professiona web designing services in india.",
+    "professiona web devlopment services in greater noida.",
+    "professiona web designing services in greater noida.",
+    "Responsive web designing services in india.",
+    "best digital marketing services in India.",
+    "freelance MERN-Stack Developer in India.",
+    "seo services in greater noida open now.",
+    "online appointments seo services in greater noida.",
+    "top rated seo services in greater noida."
   ],
   authors: [
     {
@@ -71,7 +64,7 @@ export const metadata: Metadata = {
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         width: 1200,
         height: 630,
         alt: "Deepak Singh Web Developer Portfolio",
@@ -86,7 +79,7 @@ export const metadata: Metadata = {
     description:"Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide.",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/deepak-singh.jpg",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         alt: "Deepak Singh Web Developer Twitter Preview",
       },
     ],
@@ -107,13 +100,6 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
-      <Head>
-        <meta property="og:title" content="Deepak Singh | Web Developer & Designer in Greater Noida, India" />
-        <meta property="og:description" content="Freelance web developer Deepak Singh offers custom, responsive, and SEO-friendly web design and development services in Greater Noida, India, and worldwide." />
-        <meta property="og:image" content="https://www.webdeveloperdeepak.com/deepak-singh.jpg" />
-        <meta property="og:url" content="https://www.webdeveloperdeepak.com" />
-        <meta property="og:type" content="website" />
-      </Head>
       <body >
         <NavBar />
         {children}

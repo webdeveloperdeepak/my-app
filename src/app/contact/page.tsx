@@ -7,8 +7,7 @@ import type { Metadata } from 'next';
 // ✅ SEO Metadata for Contact Page
 export const metadata: Metadata = {
   title: "Contact | Deepak Singh | Freelance Web Developer in Greater Noida",
-  description:
-    "Get in touch with Deepak Singh, a freelance web developer and designer in Greater Noida, India. Let's discuss your website, portfolio, or e-commerce project.",
+  description:"Get in touch with Deepak Singh, a freelance web developer and designer in Greater Noida, India. Let's discuss your website, portfolio, or e-commerce project.",
   keywords: [
     "web developer deepak",
     "website development services in noida",
@@ -24,14 +23,6 @@ export const metadata: Metadata = {
     "professiona web designing services in india.",
     "professiona web devlopment services in greater noida.",
     "professiona web designing services in greater noida.",
-    "Web Developer Deepak",
-    "Frontend Developer",
-    "Backend Developer",
-    "Full Stack Developer",
-    "React Developer",
-    "Next.js Developer",
-    "JavaScript Developer",
-    "Custom Web Development",
     "Responsive web designing services in india.",
     "best digital marketing services in India.",
     "freelance MERN-Stack Developer in India.",
