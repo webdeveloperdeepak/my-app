@@ -26,14 +26,6 @@ export const metadata: Metadata = {
     "professiona web designing services in india.",
     "professiona web devlopment services in greater noida.",
     "professiona web designing services in greater noida.",
-    "Web Developer Deepak",
-    "Frontend Developer",
-    "Backend Developer",
-    "Full Stack Developer",
-    "React Developer",
-    "Next.js Developer",
-    "JavaScript Developer",
-    "Custom Web Development",
     "Responsive web designing services in india.",
     "best digital marketing services in India.",
     "freelance MERN-Stack Developer in India.",
@@ -48,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Deepak Singh | Web Developer & Designer",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/deepaksingh-webdeveloper.png",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         width: 1200,
         height: 630,
         alt: "Deepak Singh Web Developer Portfolio Banner",
@@ -66,7 +58,7 @@ export const metadata: Metadata = {
     site: "@deepak_singh_",
     images: [
       {
-        url: "https://www.webdeveloperdeepak.com/images/deepaksingh-webdeveloper.png",
+        url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
         alt: "Deepak Singh Web Developer",
       },
     ],
