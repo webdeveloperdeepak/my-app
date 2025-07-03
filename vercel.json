@@ -1,0 +1,14 @@
+{
+  "edgeConfig": {
+    "allowedUserAgents": [
+      "WhatsApp",
+      "facebookexternalhit",
+      "Twitterbot",
+      "LinkedInBot",
+      "Pinterestbot",
+      "Googlebot",
+      "Slackbot",
+      "TelegramBot"
+    ]
+  }
+}
