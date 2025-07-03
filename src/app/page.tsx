@@ -57,6 +57,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.webdeveloperdeepak.com/deepaksingh-webdeveloper.png",
+        width: 1200,
+        height: 630,
         alt: "Deepak Singh Web Developer",
       },
     ],
