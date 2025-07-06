@@ -10,9 +10,7 @@ const ShortIntro: React.FC = () => {
   return (
     <section className="pt-9 pb-24 bg-white px-9 w-full">
       <Container>
-        <h1 className="h1-heading">
-          Professional Web Development Services
-        </h1>
+        <h1 className="h1-heading">Professional Web Development Services</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Image */}
@@ -47,9 +45,9 @@ const ShortIntro: React.FC = () => {
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              I also contribute to open-source projects and mentor other
-              developers in my free time — I believe in growing together as a
-              community.
+              I stay updated with the latest web
+              technologies, and share knowledge with the developer community — I
+              believe in growing together as a community.
             </p>
 
             <button
