@@ -29,16 +29,16 @@ const Footer: React.FC = () => {
           <div className="flex flex-col">
             <h2 className="footer-heading">Quick Links</h2>
             <div className="flex flex-col gap-2">
-              <Link href="/" className="text-sm uppercase hover:text-white">
+              <Link href="/" className="text-sm hover:text-white">
                 Home
               </Link>
-              <Link href="/about" className="text-sm uppercase hover:text-white">
+              <Link href="/about" className="text-sm hover:text-white">
                 About
               </Link>
-              <Link href="/contact" className="text-sm uppercase hover:text-white">
+              <Link href="/contact" className="text-sm hover:text-white">
                 Contact
               </Link>
-              <Link href="/my-projects"  className="text-sm uppercase hover:text-white">
+              <Link href="/my-projects"  className="text-sm hover:text-white">
                 Projects
               </Link>
             </div>
@@ -79,11 +79,11 @@ const Footer: React.FC = () => {
             <div className="space-y-2">           
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Phone size={18} /> 
-                <a href="tel:+917607146249">Call Us: +91-7607146249</a>
+                <a href="tel:+917607146249">Call: +91-7607146249</a>
               </div>
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Mail size={18} /> 
-                <a href="mailto:info@webdeveloperdeepak.com">Email Us: info@webdeveloperdeepak.com</a>
+                <a href="mailto:info@webdeveloperdeepak.com">Email: info@webdeveloperdeepak.com</a>
               </div>
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <MapPin size={18} /> 
