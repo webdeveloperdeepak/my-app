@@ -30,21 +30,21 @@ const ShortIntro: React.FC = () => {
               Hi, I'm Deepak Singh
             </h2>
 
-            <p className="text-lg leading-relaxed mb-4">
+            <p className="text-lg leading-relaxed text-justify mb-4">
               I'm a MERN-Stack Web Developer focused on building dynamic,
               responsive, and impactful applications. My goal is to blend clean
               code with modern design to deliver fast and user-friendly
               experiences.
             </p>
 
-            <p className="text-lg leading-relaxed mb-4">
-              I specialize in technologies like <strong>React</strong>,{" "}
+            <p className="text-lg leading-relaxed text-justify mb-4">
+              I specialized in technologies like <strong>React</strong>,{" "}
               <strong>Next.js</strong>, <strong>TypeScript</strong>, and{" "}
               <strong>Tailwind CSS</strong>, and I’m always pushing my limits to
               stay ahead of trends.
             </p>
 
-            <p className="text-lg leading-relaxed mb-6">
+            <p className="text-lg leading-relaxed text-justify mb-6">
               I stay updated with the latest web
               technologies, and share knowledge with the developer community — I
               believe in growing together as a community.
