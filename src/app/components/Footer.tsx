@@ -11,6 +11,7 @@ import {
   MapPin,
 } from "lucide-react";
 import Container from "./Container";
+import { BsYoutube } from "react-icons/bs";
 
 const Footer: React.FC = () => {
   return (
@@ -21,21 +22,24 @@ const Footer: React.FC = () => {
           <div className="flex flex-col">
             <h2 className="footer-heading">About</h2>
             <p className="text-md text-justify ">
-              I am a web developer & designer with a knack for creating dynamic and responsive web applications. 
+              I am a Web Developer & Designer helping startups, e-commerce businesses, or personal brands Build Beautiful, Functional, and Scalable Websites.
             </p>
           </div>
           {/* Quick Links Column */}
           <div className="flex flex-col">
             <h2 className="footer-heading">Quick Links</h2>
             <div className="flex flex-col gap-2">
-              <Link href="/about" className="text-sm hover:text-white">
-                About Me
+              <Link href="/" className="text-sm uppercase hover:text-white">
+                Home
               </Link>
-              <Link href="/contact" className="text-sm hover:text-white">
-                Contact Me
+              <Link href="/about" className="text-sm uppercase hover:text-white">
+                About
               </Link>
-              <Link href="/my-projects"  className="text-sm hover:text-white">
-                My Projects
+              <Link href="/contact" className="text-sm uppercase hover:text-white">
+                Contact
+              </Link>
+              <Link href="/my-projects"  className="text-sm uppercase hover:text-white">
+                Projects
               </Link>
             </div>
           </div>
@@ -51,14 +55,20 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Facebook size={18} />
-                <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.facebook.com/webdeveloperdeepak" target="_blank" rel="noopener noreferrer">
                   Facebook
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-sm hover:text-white">
                 <Instagram size={18} />
-                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/web_developer_deepak" target="_blank" rel="noopener noreferrer">
                   Instagram
+                </Link>
+              </div>
+              <div className="flex items-center gap-2 text-sm hover:text-white">
+                <BsYoutube size={18} />
+                <Link href="https://www.youtube.com/@deepakwebdeveloper" target="_blank" rel="noopener noreferrer">
+                  Youtube
                 </Link>
               </div>
             </div>

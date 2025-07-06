@@ -47,7 +47,7 @@ const AboutMe : React.FC = () => {
                 <FaLinkedin className="text-2xl text-amber-700 hover:text-blue-900" />
               </Link>
               <Link
-                href="https://github.com/webdeveloperdeepaksingh"
+                href="https://github.com/webdeveloperdeepak"
                 className="border-[1.5px] border-amber-700 p-3 rounded-md hover:shadow-lg"
                 target="_blank"
                 rel="noopener noreferrer"
