@@ -10,6 +10,7 @@ const pricingData = [
     price: "₹3,000",
     features: [
       "Static Website",
+      "Custom Design",
       "Responsive Design",
       "Up to 5 Pages",
       "Contact Form",
