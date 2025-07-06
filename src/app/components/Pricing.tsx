@@ -70,7 +70,7 @@ const pricingData = [
       "E-commerce Functionality",
       "Priority Customer Support",
       "Logo/Business Card Design",
-      "1 Year website maintenance",
+      "1 Year Website Maintenance",
       "Payment Gateway Integration",
       "Speed & Performance Optimization",
     ],
