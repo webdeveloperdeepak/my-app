@@ -31,7 +31,7 @@ const pricingData = [
     price: "₹6,000",
     features: [
       "Contact Form",
-      "Up to 9 Pages",
+      "Up to 10 Pages",
       "Custom Design",
       "Static Website",
       "Responsive Design",
@@ -53,7 +53,7 @@ const pricingData = [
     features: [
       "Everyting in Standard Plan",
       "Advanced SEO",
-      "Up to 25 Pages",
+      "Up to 20 Pages",
       "Dynamic Website",
       "Technical Support",
       "Admin/User Dashboard",
@@ -67,19 +67,18 @@ const pricingData = [
   },
   {
     title: "ENTERPRISE",
-    price: "Starts at ₹45,000",
+    price: "Starts at ₹35,000",
     features: [
       "Everything in Premium Plan",
       "Premium SEO",
-      "Up to 40 Pages",
+      "Up to 30 Pages",
       "Sales Report Generation",
-      "Permission Management",
       "E-commerce Functionality",
       "Logo/Business Card Design",
       "Priority Technical Support",
       "1 Year Website Maintenance",
       "Payment Gateway Integration",
-      "Speed & Performance Optimization",
+      "Speed & Image Optimization",
     ],
   },
 ];
