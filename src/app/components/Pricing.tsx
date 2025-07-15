@@ -49,7 +49,7 @@ const pricingData = [
   },
   {
     title: "PREMIUM",
-    price: "₹15,000",
+    price: "₹12,000",
     features: [
       "Everyting in Standard Plan",
       "Advanced SEO",
@@ -67,7 +67,7 @@ const pricingData = [
   },
   {
     title: "ENTERPRISE",
-    price: "Starts at ₹35,000",
+    price: "Starts at ₹34,000",
     features: [
       "Everything in Premium Plan",
       "Premium SEO",
