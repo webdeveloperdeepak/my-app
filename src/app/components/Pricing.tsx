@@ -72,13 +72,15 @@ const pricingData = [
       "Everything in Premium Plan",
       "Premium SEO",
       "Up to 30 Pages",
+      "Receipt Management",
       "Sales Report Generation",
       "E-commerce Functionality",
       "Logo/Business Card Design",
       "Priority Technical Support",
+      "Speed & Image Optimization",
       "1 Year Website Maintenance",
       "Payment Gateway Integration",
-      "Speed & Image Optimization",
+      "Filter, Sort and Search Functionality"
     ],
   },
 ];
